@@ -11,6 +11,12 @@
 		F213C6F3263CCA04003156CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F213C6F2263CCA04003156CE /* ContentView.swift */; };
 		F213C6F5263CCA06003156CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F213C6F4263CCA06003156CE /* Assets.xcassets */; };
 		F213C6F8263CCA06003156CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F213C6F7263CCA06003156CE /* Preview Assets.xcassets */; };
+		F213C70B263D36E8003156CE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F213C70A263D36E8003156CE /* HomeView.swift */; };
+		F213C70F263D387A003156CE /* PlayerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F213C70E263D387A003156CE /* PlayerSelectionView.swift */; };
+		F213C712263D4AF1003156CE /* ElseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F213C711263D4AF1003156CE /* ElseView.swift */; };
+		F240660B263DF5AB007867A6 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240660A263DF5AB007867A6 /* PracticeView.swift */; };
+		F2406610263DF5D8007867A6 /* LeaderbordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240660F263DF5D8007867A6 /* LeaderbordView.swift */; };
+		F2406615263DF5F0007867A6 /* CosmeticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2406614263DF5F0007867A6 /* CosmeticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		F213C6F4263CCA06003156CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F213C6F7263CCA06003156CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F213C6F9263CCA06003156CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F213C70A263D36E8003156CE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F213C70E263D387A003156CE /* PlayerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelectionView.swift; sourceTree = "<group>"; };
+		F213C711263D4AF1003156CE /* ElseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElseView.swift; sourceTree = "<group>"; };
+		F240660A263DF5AB007867A6 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		F240660F263DF5D8007867A6 /* LeaderbordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderbordView.swift; sourceTree = "<group>"; };
+		F2406614263DF5F0007867A6 /* CosmeticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmeticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			children = (
 				F213C6F0263CCA04003156CE /* Puzzle_CrushApp.swift */,
 				F213C6F2263CCA04003156CE /* ContentView.swift */,
+				F213C700263D2AC7003156CE /* Views */,
 				F213C6F4263CCA06003156CE /* Assets.xcassets */,
 				F213C6F9263CCA06003156CE /* Info.plist */,
 				F213C6F6263CCA06003156CE /* Preview Content */,
@@ -67,6 +80,19 @@
 				F213C6F7263CCA06003156CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F213C700263D2AC7003156CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F213C70A263D36E8003156CE /* HomeView.swift */,
+				F213C70E263D387A003156CE /* PlayerSelectionView.swift */,
+				F240660A263DF5AB007867A6 /* PracticeView.swift */,
+				F240660F263DF5D8007867A6 /* LeaderbordView.swift */,
+				F2406614263DF5F0007867A6 /* CosmeticsView.swift */,
+				F213C711263D4AF1003156CE /* ElseView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +165,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F213C6F3263CCA04003156CE /* ContentView.swift in Sources */,
+				F240660B263DF5AB007867A6 /* PracticeView.swift in Sources */,
+				F213C712263D4AF1003156CE /* ElseView.swift in Sources */,
+				F2406615263DF5F0007867A6 /* CosmeticsView.swift in Sources */,
+				F213C70B263D36E8003156CE /* HomeView.swift in Sources */,
+				F213C70F263D387A003156CE /* PlayerSelectionView.swift in Sources */,
+				F2406610263DF5D8007867A6 /* LeaderbordView.swift in Sources */,
 				F213C6F1263CCA04003156CE /* Puzzle_CrushApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
